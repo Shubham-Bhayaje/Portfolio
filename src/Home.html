@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIGH</title>
+  <link href="./output.css" rel="stylesheet">
+
+
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.4/dist/tailwind.min.css" rel="stylesheet">
+
+  <style>
+
+    .nav-link {
+      transition: transform 0.2s ease-in-out, color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    }
+    /* Custom hover styles */
+    .nav-link:hover {
+      color: #376aec;
+      transition: transform 0.2s ease-in-out;
+      transform: scale(1.1); /* Scale up on hover */
+    }
+  </style>
+</head>
+<body class="bg-black">
+  <header class="p-3">
+    <nav class="flex items-center justify-between m-5">
+      <div class="text-white"><p class="text-2xl font-bold">SIGH</p></div>
+      <div class="flex space-x-8">
+        <p class="text-white nav-link">Home</p>
+        <p class="text-white nav-link">About</p>
+        <p class="text-white nav-link">Projects</p>
+        <p class="text-white nav-link">Services</p>
+        <p class="text-white nav-link">Contact</p>
+      </div>
+    </nav>
+  </header>
+  <main class="p-8">
+    <section class="m-10 ml-10 mt-10">
+      <p class="text-white text-3xl font-bold hello-text">
+        Hello there!
+      </p>
+      <p class="text-white text-7xl font-bold hello-text">
+        SIGH
+      </p>
+      <p class="text-white text-3xl font-bold hello-text">
+        And we are <span class="text-cyan-400">A small group</span>
+      </p>
+      <p class="text-white text-2xl">
+        Welcome to SIGH, where innovation meets expertise! <br> We are a dedicated team of developers
+        specializing in crafting custom websites,<br> Android applications, and cutting-edge machine learning
+        projects tailored to meet <br>
+        your unique needs and aspirations.
+        Our mission is to transform your ideas into reality.
+      </p>
+
+      <div class="mt-12 flex justify-start space-x-8">
+        <img src="Images/Twitter.jpg" class=" rounded-full" alt="Twitter logo">
+        <img src="Images/Insta.jpg" class=" rounded-full" alt="Instagram logo">
+      </div>
+
+
+
+
+    </section>
+  </main>
+</body>
+</html>
